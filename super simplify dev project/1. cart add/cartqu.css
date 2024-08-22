@@ -1,0 +1,20 @@
+h1 { background-color: antiquewhite;
+    color: black;
+    height: 20px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    }
+button{ color: aquamarine;
+        color: rgb(185, 29, 29);
+
+      }
+div{text-align: center;
+    color: blueviolet;
+    size: 50px;
+    /* height: 100px;
+    width: 200px; */
+    align-items: center;
+    
+     
+}

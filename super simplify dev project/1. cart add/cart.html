@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS CART</title>
+    <link rel="stylesheet" href="cartqu.css">
+</head>
+<body>
+    <h1>Tarek Monowar JS practice</h1><br>
+
+
+    <button onclick="document.getElementById ( 'demo' ). innerHTML = (`Cart Quantity = ${cartQuantity}`)" >Show Quantity</button>
+
+    <button onclick="cartQuantity = cartQuantity + 1;
+        document.getElementById ( 'demo' ). innerHTML = (`Cart Quantity = ${cartQuantity}`)
+         ">Add to cart </button>
+
+
+    <button onclick="cartQuantity = cartQuantity + 2;
+    document.getElementById ( 'demo' ). innerHTML = (`Cart Quantity = ${cartQuantity}`)" > +2 </button>
+
+
+    <button onclick="cartQuantity = cartQuantity + 3;
+    document.getElementById ( 'demo' ). innerHTML = (`Cart Quantity = ${cartQuantity}`)"> +3 </button>
+
+
+    <button onclick="cartQuantity = 0;
+    document.getElementById ( 'demo' ). innerHTML = (`cart was reset: <br> Cart Quantity = ${cartQuantity}`)">Reset</button>
+
+<div id="demo"></div>
+
+
+        <!-- (document.getElementById ( 'demo' ). innerHTML =)  na diye console.log() modde lekha jay tokon chromer 
+        console open kore dekte hoy .akon demo modde dekaychhe -->
+
+
+
+
+    <script> let cartQuantity = 0;</script>
+</body>
+</html>
