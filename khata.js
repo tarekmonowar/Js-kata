@@ -51,3 +51,44 @@ console.log(arr);
 
 
 // -----------------   number=12    --------------------
+
+
+let arr1 = [2, 4, 7, -2, -45, 69, -11, 100, -99];
+function isPositiveNum(x){
+    return x>=0
+}
+                                                               //2nd funtion run howar por atite x ase tar por true return kore,,,x>=0 ati true /false reture kore
+function remNegNu(num , callback) {
+    let newArr = [];
+    for(const x of arr1){                                        //akhane x means 2,3,7 aibabe ase
+        if(isPositiveNum(x)){
+            newArr.push(x)
+        }
+    }
+   return newArr 
+}
+let nam1 = remNegNu(arr1);
+console.log(nam1);
+
+
+// -----------------   number=13   --------------------
+
+
+let nam = [1,4,7,9,0];
+
+// nam.forEach(function (val,index,nam){
+//     console.log(index,val,nam);
+// });
+
+function foreEach(arr,callback){
+    for ( let i = 0; i< arr.length ; i++){
+        callback(i,arr[i],arr);
+    }
+};
+function test(index,valu,arr1){
+          console.log(index,valu,arr1);
+}
+foreEach(nam,test)
+
+
+// -----------------   number=14   --------------------
