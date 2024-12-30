@@ -85,3 +85,25 @@ function name1(...args) {
 }
 
 name1(1, 2, 3, 4, 5, 6, 7, 8, 9, 23);
+
+
+
+  // ------------solution num 05 -------------
+
+  function move( ) {
+    const div2 = document.getElementById("animate");
+    let position = 0;
+    const clearI = setInterval(frame, 5);
+    function frame(){
+      if(position < 350) {position++;
+       div2.style.top = position + "px";
+       div2.style.left = position + "px";
+    }else {
+       clearInterval(clearI);
+    }  } };                                             //w3school dom animation project;see html and css code;
+
+
+
+ 
+
+  // ------------solution num 06 -------------
